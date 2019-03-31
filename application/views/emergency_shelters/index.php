@@ -9,13 +9,23 @@
         <!-- Banner section Start-->
     </section>
 
-    <div class="col-md-12">
-                            
-        <a href="<?php echo site_url('Emergency_Shelters'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Emergency Shelters</a>
-        <a href="<?php echo site_url('Drinkable_Water'); ?>" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Drinkable Water</a>
-        <a href="<?php echo site_url('Fresh_Food'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Fresh Food</a>
-    </div>    
    
+     <!-- About section start-->
+     <section class="about">
+         <!-- container Start-->
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-12 col-12 heading">
+                        <a href="<?php echo site_url('Emergency_Shelters'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Emergency Shelters</a>
+                        <a href="<?php echo site_url('Drinkable_Water'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Drinkable Water</a>
+                        <a href="<?php echo site_url('Fresh_Food'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Fresh Food</a>
+                 </div>
+             </div>
+       
+         </div>
+         <!-- container Ended-->
+     </section>
+     <!-- About section Ended-->    
     <!-- services section Start -->
     <section id="products">
         <div class="container">

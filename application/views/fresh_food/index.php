@@ -14,52 +14,12 @@
          <div class="container">
              <div class="row">
                  <div class="col-md-12 col-12 heading">
-                     <img src="<?php echo base_url("includes/assets/images/leaf.png") ?> " alt="">
-                     <h2>Access to vital infotrmation </h2>
-                     <h3>Know where you can go and seek for refuge</h3>
+                        <a href="<?php echo site_url('Emergency_Shelters'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Emergency Shelters</a>
+                        <a href="<?php echo site_url('Drinkable_Water'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Drinkable Water</a>
+                        <a href="<?php echo site_url('Fresh_Food'); ?>" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Fresh Food</a>
                  </div>
              </div>
-             <div class="row">
-                 <div class="col-md-4 col-sm-12 col-12 box-1" data-aos="fade-right" data-aos-duration="400">
-                     <div class="circle">
-                         <div class="gradient"></div>
-                         <div class="circle__inner">
-                             <div class="circle__wrapper">
-                                 <div class="circle__content">
-                                     <h4><a href="<?php echo site_url('Emergency_Shelters'); ?>">Emergency Shelters</a></h4>
-                                     <p><a href="<?php echo site_url('Emergency_Shelters'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-4 col-sm-12 col-12 box-2" data-aos="fade-up" data-aos-duration="400">
-                     <div class="circle">
-                         <div class="gradient"></div>
-                         <div class="circle__inner">
-                             <div class="circle__wrapper">
-                                 <div class="circle__content">
-                                     <h4><a href="<?php echo site_url('Drinkable_Water'); ?>"> Drinkable Water </a></h4>
-                                     <p><a href="<?php echo site_url('Drinkable_Water'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-                 <div class="col-md-4 col-sm-12 col-12 box-3" data-aos="fade-left" data-aos-duration="400">
-                     <div class="circle">
-                         <div class="gradient"></div>
-                         <div class="circle__inner">
-                             <div class="circle__wrapper">
-                                 <div class="circle__content">
-                                     <h4><a href="<?php echo site_url('Fresh_Food'); ?>">Fresh Food</a></h4>
-                                     <p><a href="<?php echo site_url('Fresh_Food'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
-                                 </div>
-                             </div>
-                         </div>
-                     </div>
-                 </div>
-             </div>
+       
          </div>
          <!-- container Ended-->
      </section>
