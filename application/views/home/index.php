@@ -38,8 +38,8 @@
                      <div class="circle__inner">
                          <div class="circle__wrapper">
                              <div class="circle__content">
-                                 <h4><a href="products.html">Emergency Shelters</a></h4>
-                                 <p><a href="products.html">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
+                                 <h4><a href="<?php echo site_url('Emergency_Shelters'); ?>">Emergency Shelters</a></h4>
+                                 <p><a href="<?php echo site_url('Emergency_Shelters'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
                              </div>
                          </div>
                      </div>
@@ -51,8 +51,8 @@
                      <div class="circle__inner">
                          <div class="circle__wrapper">
                              <div class="circle__content">
-                                 <h4><a href="products.html"> Drinkable Water </a></h4>
-                                 <p><a href="products.html">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
+                                 <h4><a href="<?php echo site_url('Drinkable_Water'); ?>"> Drinkable Water </a></h4>
+                                 <p><a href="<?php echo site_url('Drinkable_Water'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
                              </div>
                          </div>
                      </div>
@@ -64,8 +64,8 @@
                      <div class="circle__inner">
                          <div class="circle__wrapper">
                              <div class="circle__content">
-                                 <h4><a href="products.html">Fresh Food</a></h4>
-                                 <p><a href="products.html">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
+                                 <h4><a href="<?php echo site_url('Fresh_Food'); ?>">Fresh Food</a></h4>
+                                 <p><a href="<?php echo site_url('Fresh_Food'); ?>">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</a></p>
                              </div>
                          </div>
                      </div>
