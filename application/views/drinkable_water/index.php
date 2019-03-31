@@ -52,17 +52,33 @@
     <!-- services section Ended -->
 
 
+
 <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      var uluru = {lat: -25.344, lng: 131.036};
-      // The map, centered at Uluru
-      var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: uluru});
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({position: uluru, map: map});
-    }
+
+function initMap() {
+
+var center = {lat: -28.4400743, lng: 132.9820586};
+var locations = <?php echo $data['locations']; ?>;
+var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 3,
+    center: center
+  });
+var infowindow =  new google.maps.InfoWindow({});
+var marker, count;
+for (count = 0; count < locations.length; count++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[count][1], locations[count][2]),
+      map: map,
+      title: locations[count][0]
+    });
+google.maps.event.addListener(marker, 'click', (function (marker, count) {
+      return function () {
+        infowindow.setContent(locations[count][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, count));
+  }
+}    
 </script>
     <!--Load the API from the specified URL
     * The async attribute allows the browser to render the page while the API loads

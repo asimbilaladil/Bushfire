@@ -5,13 +5,16 @@ class Emergency_Shelters extends CI_Controller {
 
 	public function __construct(){
         parent::__construct();
-        //$this->load->model('AdminModel');
+        $this->load->model('BushfireModel');
 
     }
 
 
 	public function index(){
-          $this->loadView('emergency_shelters/index', null);
+
+        $mapData = $this->BushfireModel->getAllfromTable('Emergency_Shelters');
+        $data['locations'] = $this->BushfireModel->getLocations($mapData);
+        $this->loadView('emergency_shelters/index', $data);
     }
 
 

@@ -5,13 +5,15 @@ class Drinkable_Water extends CI_Controller {
 
 	public function __construct(){
         parent::__construct();
-        //$this->load->model('AdminModel');
+        $this->load->model('BushfireModel');
 
     }
 
 
 	public function index(){
-          $this->loadView('drinkable_water/index', null);
+		$mapData = $this->BushfireModel->getAllfromTable('Drinkable_Water');
+        $data['locations'] = $this->BushfireModel->getLocations($mapData);
+        $this->loadView('drinkable_water/index',  $data);
     }
 
 

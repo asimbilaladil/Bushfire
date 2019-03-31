@@ -5,13 +5,15 @@ class Fresh_Food extends CI_Controller {
 
 	public function __construct(){
         parent::__construct();
-        //$this->load->model('AdminModel');
+        $this->load->model('BushfireModel');
 
     }
 
 
 	public function index(){
-          $this->loadView('fresh_food/index', null);
+        $mapData = $this->BushfireModel->getAllfromTable('Fresh_Food');
+        $data['locations'] = $this->BushfireModel->getLocations($mapData);        
+        $this->loadView('fresh_food/index', $data);
     }
 
 
