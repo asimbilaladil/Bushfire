@@ -4,39 +4,8 @@
     <footer class="contact">
         <!-- Gradient -->
         <div class="gradient"></div>
-        <!-- container Start-->
-        <div class="container">
-            <div class="row" data-aos="fade-up" data-aos-duration="400">
-                <div class="col-lg-6 col-md-12 col-12 columns-1">
-                    <h2>Our Address</h2>
-                    <address>
-                    <p> The Pastafarians, 3rd Floor, </p>
-                    <p>Beside that building, Melbourne</p>
-                    <p>Opening Hours : Mo-Fr 11:00-00:00, Sa-Su 15:00-00:00</p>
-                    <p>Call for Bookings : <span>800 1234 56789</span></p>
-                   </address>
-                </div>
-                <div class="col-lg-1 col-md-12 col-12"></div>
-                <div class="col-lg-5 col-md-12 col-12 columns-2">
-                    <h2>Quick Contact</h2>
-                    <form class="row form-inline">
-                        <div class="col-md-6 form-group">
-                            <input type="text" class="form-control" placeholder="Your Name" required/>
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="email" class="form-control" placeholder="Your Email" required/>
-                        </div>
-                        <div class="col-md-12 form-group">
-                            <textarea class="form-control" placeholder="Message" rows="5" cols="70"></textarea>
-                        </div>
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <!-- container Ended-->
+
+
         <div class="copyright">
             <div class="container">
                 <div class="row border-img">
@@ -64,7 +33,7 @@
                             <li><a class="hidden-xs">~</a></li>
                             <li class="nav-item"><a class="nav-link" href="blog-page.html">Read Blog</a></li>
                         </ul>
-                        <p>(C) 2019 All Rights Reserved. Designed by <a href="https://www.template.net/editable/websites/html5" target="_blank">Pastafarians</a></p>
+                        <p>(C) 2019 All Rights Reserved. Bushfire</p>
                     </div>
                 </div>
             </div>
