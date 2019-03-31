@@ -36,11 +36,18 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12">
                         <figure>
-                            <img src="<?php echo base_url("includes/assets/images/Web-Design.jpg") ?>" alt="Web Design" width="100%">
+                            <img src="<?php echo base_url("includes/assets/images/Web-Shelter.jpg") ?>" alt="Web Design" width="100%">
                         </figure>
                     </div>
                     <div class="col-lg-9 col-md-8 col-12 col1">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                        <p>Community Fire Refuges (CFRs) are only activated and opened once there is significant fire in the local area. 
+Community Fire Refuges offer a last resort shelter option if you cannot leave the area in the event of a fire. 
+Most Neighbourhood Safer Places - Places of Last Resort are open-air spaces such as sports ovals, 
+whereas Community Fire Refuges are enclosed buildings that are built or modified to withstand bushfire. 
+Another last resort shelter option is a Bushfire Place of Last Resort. These do not provide the same level of protection 
+as a well-constructed defendable home, private bushfire shelter or a Community Fire Refuge. 
+They may be no more than an open space, but have been assessed to provide a level of protection from the effects of radiant heat. 
+There are more than 290 Bushfire Places of Last Resort in Victoria</p>
                     </div>
                      <div class="col-lg-12 col-md-12 col-12">
                         <!--The div element for the map -->

@@ -34,11 +34,16 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-12">
                         <figure>
-                            <img src="<?php echo base_url("includes/assets/images/Web-Design.jpg") ?>" alt="Web Design" width="100%">
+                            <img src="<?php echo base_url("includes/assets/images/Web-Water.jpg") ?>" alt="Web Design" width="100%">
                         </figure>
                     </div>
                     <div class="col-lg-9 col-md-8 col-12 col1">
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop</p>
+                        <p>These are the fountains designed to provide drinking water. 
+they consists of a basin with either continuously running water or a tap. 
+The drinker bends down to the stream of water and swallows water directly from the stream. 
+Drinking fountains are usually found in public places, like schools, rest areas, libraries, and grocery stores. 
+Many jurisdictions require drinking fountains to be wheelchair accessible. 
+</p>
                     </div>
                      <div class="col-lg-12 col-md-12 col-12">
                         <!--The div element for the map -->
