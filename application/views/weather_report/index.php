@@ -240,7 +240,7 @@ if($fdi>0){
     <!-- services section Start -->
     <section id="products">
         <div class="container">
-            <h2 data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">Fresh Food</h2>
+            <h2 data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate"><?php echo $data->name; ?> Weather</h2>
             <div class="part-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
                
                 <div class="row">
@@ -248,7 +248,7 @@ if($fdi>0){
       
                      <div class="col-lg-12 col-md-12 col-12">
                             <div class="report-container">
-        <h2><?php echo $data->name; ?> Weather</h2>
+
         <div class="time">
             <div><?php echo date("l g:i a", $currentTime); ?></div>
             <div><?php echo date("jS F, Y",$currentTime); ?></div>

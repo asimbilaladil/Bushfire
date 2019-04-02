@@ -7,11 +7,11 @@
          <!--Row Start-->
          <div class="row">
              <div class="col-sm-12">
-                 <h1 data-aos="fade-left">Be informed and stay safe!</h1>
-                 <h2 data-aos="fade-left" data-aos-delay="100">We provide information for Bushfire emergensies </h2>
+                 <h1 data-aos="fade-left">Be informed and plan ahead!</h1>
+                 <h2 data-aos="fade-left" data-aos-delay="100">We provide information for camping emergensies </h2>
                  <p data-aos="fade-left" data-aos-delay="200"><i class="fa fa-clock-o" aria-hidden="true"></i><span>We Are open 24x7</span></p>
                  <p data-aos="fade-left" data-aos-delay="300"><i class="fa fa-phone-square" aria-hidden="true"></i><span>Call for more information</span></p>
-                 <p data-aos="fade-left" data-aos-delay="400"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@bushfire.tk</span></p>
+                 <p data-aos="fade-left" data-aos-delay="400"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@campingplanner.tk</span></p>
                  <a data-aos="fade-left" data-aos-delay="500" class="btn btn-success" href="about.html" role="button">our story</a>
              </div>
          </div>
