@@ -22,9 +22,9 @@
                     <div class="col-lg-9 col-md-12 right-part">
                         <ul class="ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                <a class="nav-link active" href="<?php echo site_url("Home") ?>">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li><a class="hidden-xs">~</a></li>
+                            <!-- <li><a class="hidden-xs">~</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                             <li><a class="hidden-xs">~</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
@@ -32,6 +32,7 @@
                             <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
                             <li><a class="hidden-xs">~</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Read Blog</a></li>
+                        -->
                         </ul>
                         <p>(C) 2019 All Rights Reserved. Bushfire</p>
                     </div>
