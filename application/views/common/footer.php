@@ -25,13 +25,13 @@
                                 <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li><a class="hidden-xs">~</a></li>
-                            <li class="nav-item"><a class="nav-link" href="services.html">Our Services</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
                             <li><a class="hidden-xs">~</a></li>
-                            <li class="nav-item"><a class="nav-link" href="products.html">Our Products</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
                             <li><a class="hidden-xs">~</a></li>
-                            <li class="nav-item"><a class="nav-link" href="rates.html">Rates</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
                             <li><a class="hidden-xs">~</a></li>
-                            <li class="nav-item"><a class="nav-link" href="blog-page.html">Read Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Read Blog</a></li>
                         </ul>
                         <p>(C) 2019 All Rights Reserved. Bushfire</p>
                     </div>

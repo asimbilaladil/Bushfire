@@ -25,11 +25,10 @@
         <div id="mySidenav" class="sidenav">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a class="active" href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="services.html">Services</a>
-            <a href="products.html">Products</a>
-            <a href="rates.html">Rates</a>
-            <a href="blog-page.html">Blog</a>
+            <a href="#">About</a>
+            <a href="#">Contacts</a>
+            <a href="#">Feedback</a>
+            <a href="#">Read Blog</a>
         </div>
         <!-- Nav section Start -->
         <nav id="navbar">
