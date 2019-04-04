@@ -233,7 +233,7 @@
                                  </figure>
                              </div>
                              <div class="col-md-8 inner-content">
-                                 <h4><a href="#">Coming Soon</a></h4>
+                                 <h4>Coming Soon<h4>
                                  <p><span>December 23, 2016</span></p>
                              </div>
                          </div>
@@ -246,7 +246,7 @@
                                  </figure>
                              </div>
                              <div class="col-md-8 inner-content">
-                                 <h4><a href="#">Coming Soon</a></h4>
+                                 <h4>Coming Soon<h4>
                                  <p><span>December 23, 2016</span></p>
                                  <p></p>
                              </div>
@@ -257,7 +257,7 @@
          </div>
          <div class="row">
              <div class="col-md-12 col-12 button">
-                 <button class="btn btn-success" >Plan Your Trip</button>
+                 <!-- <button class="btn btn-success" >Plan Your Trip</button> -->
              </div>
          </div>
      </div>
