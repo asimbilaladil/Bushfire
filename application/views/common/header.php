@@ -49,12 +49,12 @@
                                 <span class="slide-menu" onclick="openNav()"><i class="fa fa-bars" aria-hidden="true"></i></span>
                             </div>
                         </div>
-                        <div class="social-icons another">
+                        <!-- <div class="social-icons another">
                             <i class="fa fa-facebook-official" aria-hidden="true"></i>
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                             <i class="fa fa-pinterest" aria-hidden="true"></i>
                             <i class="fa fa-youtube" aria-hidden="true"></i>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!--Row Ended-->
