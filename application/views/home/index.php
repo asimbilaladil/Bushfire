@@ -163,7 +163,7 @@
                             Smaller rural health services may provide emergency care through their urgent care centres or primary injury services. There are
                             50 urgent care centres in Victoria and 28 primary injury services in rural hospitals that provide different levels of emergency care,
                             supported by local doctors on-call. These services may not be open 24 hours a day.</p>
-                         <button class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Hospitals</button>
+                         <!-- <button class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Hospitals</button> -->
                         
                      </div>
                  </div>
