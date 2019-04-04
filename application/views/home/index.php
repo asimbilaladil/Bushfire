@@ -11,7 +11,7 @@
                  <h2 data-aos="fade-left" data-aos-delay="100">We provide information for camping emergensies </h2>
 
                  <p data-aos="fade-left" data-aos-delay="400"><i class="fa fa-envelope" aria-hidden="true"></i><span>info@campingplanner.tk</span></p>
-                 <a data-aos="fade-left" data-aos-delay="500" class="btn btn-success" href="about.html" role="button">Get weather information</a>
+                 <a data-aos="fade-left" data-aos-delay="500" class="btn btn-success" href="<?php echo site_url('Weather_Report'); ?>" role="button">Get weather information</a>
              </div>
          </div>
          <!--Row Ended-->
@@ -257,7 +257,7 @@
          </div>
          <div class="row">
              <div class="col-md-12 col-12 button">
-                 <a class="btn btn-success" href="blog-page.html" role="button">Plan Your Trip</a>
+                 <a class="btn btn-success" href="#" role="button">Plan Your Trip</a>
              </div>
          </div>
      </div>
