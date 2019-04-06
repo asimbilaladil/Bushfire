@@ -68,7 +68,7 @@ function initMap() {
 var center = { lat:-37.8134712, lng: 144.893017};
 var locations = <?php echo $data['locations']; ?>;
 var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 6,
+    zoom: 4,
     center: center
   });
 var infowindow =  new google.maps.InfoWindow({});
