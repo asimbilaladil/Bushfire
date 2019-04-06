@@ -62,7 +62,7 @@ Many jurisdictions require drinking fountains to be wheelchair accessible.
 
 function initMap() {
 
-var center = { lat:-36.4886591, lng: 140.9954426};
+var center = { lat:-37.220485, lng: 144.912069};
 var locations = <?php echo $data['locations']; ?>;
 var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 6,
